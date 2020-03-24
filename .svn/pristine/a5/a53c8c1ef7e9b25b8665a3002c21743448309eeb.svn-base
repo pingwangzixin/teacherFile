@@ -1,0 +1,170 @@
+{
+  "id": "1464523",
+  "name": "教师档案",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17700",
+      "name": "成功",
+      "font_class": "chenggong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "354582",
+      "name": "右圆",
+      "font_class": "iconfontroundright",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "396563",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "451691",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "581993",
+      "name": "完成",
+      "font_class": "wancheng-copy",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "657312",
+      "name": "分期－警告－1",
+      "font_class": "jinggao1",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "778542",
+      "name": "x",
+      "font_class": "yooxi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "880298",
+      "name": "文件",
+      "font_class": "wenjiandocuments18",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1239935",
+      "name": "对号2",
+      "font_class": "duihao2",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "1309843",
+      "name": "男",
+      "font_class": "nan",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1400852",
+      "name": "进行中",
+      "font_class": "jinhangzhong",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "2406058",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "2458323",
+      "name": "对号",
+      "font_class": "duihao1-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2778504",
+      "name": "禁止",
+      "font_class": "jinzhi",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "4406944",
+      "name": "女",
+      "font_class": "nv",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "4437606",
+      "name": "向下",
+      "font_class": "xiangxia",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "4933198",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "5793838",
+      "name": "查看",
+      "font_class": "chakan-copy",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "5809153",
+      "name": "错误1",
+      "font_class": "cuowu",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "6058493",
+      "name": "下拉",
+      "font_class": "drop-down",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6399033",
+      "name": "搜索",
+      "font_class": "weibiaoti--",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "8097440",
+      "name": "向下",
+      "font_class": "iconfront-",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "8348123",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    }
+  ]
+}

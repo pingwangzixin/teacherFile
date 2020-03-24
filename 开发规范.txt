@@ -1,0 +1,68 @@
+
+项目开发规范（随时更新，经常查看）：
+
+1、html、js文件名采用驼峰命名，文件包、文件名中不出现下划线，对应html、js文件同名
+   eg ：newLis.html newLis.js
+   
+2、css类名前缀为g_，为全局类名，拥有全局样式，可调用，禁修改
+   eg : g_main
+
+3、项目为多人开发项目，整体模块css类名或者所有css类名前面须加姓名缩写前缀，类名可使用多个下划线“_”连接，禁用驼峰命名，禁出现其它符号或者连接符，
+   js专用类名前加j_前缀，专门用于js获取节点，禁占用，禁赋css样式
+   不允许写行间样式，若必要写，需知会组长知道
+   eg ：整体模块 ：zy_main list
+        所有类名 ：zy_main zy_list
+        js专用类名 ： j_list 
+
+4、切换状态时统一加类名active，不加前缀!!
+   eg：常规字体黑色，选中字体蓝色，加active变蓝 .active{color:blue;}
+
+5、js文件中全局变量要打包统一定义，必须统一命名包（variablePacket，必须为此名称）
+   eg： var variablePacket = {one:123,two:456,three:{a:'aa',b:'bb'}};	
+   angular项目：$scope.variablePacket = {one:123,two:456,three:{a:'aa',b:'bb'}};
+
+6、window.variableGlobal全局变量包，存储公用函数及变量，可调用，若需新增知会组长知道
+
+7、js变量采用驼峰命名，变量名中禁出现其它符号或者连接符
+   eg : variablePacket
+   
+
+
+
+
+共用部分：
+
+1、项目为jQuery开发，使用ueditor插件，后续如需要使用更多插件，需知会组长知道
+
+2、项目中小图标均使用阿里巴巴矢量图标，不允许私自使用img，新入组同学需要找组长加入项目,统一使用i标签
+   eg：<i class="iconfont icon-xinwen-copy"></i>
+
+3、reset.css为清除默认样式文件，统一引入
+
+4、public.css为公用css文件，统一引入
+
+5、public.js为公用js文件，统一引入
+
+6、必填项*号，标签使用<i class="g_star">*</i>，
+   eg ：<p>身份证号： <i class="g_star">*</i></p>，i标签前面有个空格
+
+7、输入项的错误提示信息，标签<strong class="g_red_error"></strong>，已有共用样式
+   eg：<p>身份证号： <i class="g_star">*</i><strong class="g_red_error">（请输入正确的身份证号）</strong></p>，
+
+8、select、input等表单元素，border-radius值设置为5px
+
+9、项目页面宽度固定，类名g_main为页面宽度1200，统一在元素上加此类名，禁止改动或者增加删除
+
+10、项目页面字体设置为14px，psd图纸所量14px大小字体，无需再次设置
+
+11、项目引入头部，固定格式及类名，禁修改
+    eg：<div class="header"></div>
+
+12、项目引入公用进度条，固定格式及类名，禁修改
+    eg：<div class="process"></div>
+
+13、 文件夹匹配 answerCard：答题卡页面
+               testAssembly：试卷页面
+               part：代码片段/引入部分
+
+PS：大家有更好的建议，随时提出
